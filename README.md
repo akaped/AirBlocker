@@ -48,3 +48,4 @@ This is script will automatically turn your wifi off if you connect your compute
 ## Misc
 
 To debug, just run: `sudo /Library/Scripts/toggleAirport.sh` and add echo's wherever you'd like
+
