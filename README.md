@@ -32,7 +32,8 @@ This is script will automatically turn your wifi off if you connect your compute
 - Copy `toggleAirport.sh` to `/Library/Scripts/` -> `sudo cp toggleAirport.sh /Library/Scripts/'
 - Run `sudo chmod 755 /Library/Scripts/toggleAirport.sh`
 - Copy `com.mine.toggleairport.plist` to `/Library/LaunchAgents/`-> `sudo cp com.mine.toggleairport.plist /Library/LaunchAgents/`
-- Run `sudo chmod 600 /Library/LaunchAgents/com.mine.toggleairport.plist`
+- Run `sudo chmod 600 /Library/LaunchAgents/com.mine.toggleairport.plist`.
+
 3) Start the watcher.
 - Run `sudo launchctl load /Library/LaunchAgents/com.mine.toggleairport.plist` to start the watcher
 
