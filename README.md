@@ -1,5 +1,5 @@
-# AirBlocker
-A simple bash script to turn off MacOSX Airport when the computer is connected to a network adapter. 
+# AirBlocker🚫
+A simple bash script to turn off MacOSX 🖥 Airport when the computer is connected to a network adapter. 
 
 This is a personal adaptation of the original gist from [albertbori](https://gist.github.com/albertbori/1798d88a93175b9da00b)
 My own modifications make it work with my Chinese USB Ethernet adapter.
