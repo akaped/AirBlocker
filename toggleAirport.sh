@@ -87,11 +87,11 @@ else
     if [ "$prev_air_status" != "$air_status" ]; then
     set_airport $air_status
 
-    if [ "$air_status" = "On" ]; then
-        growl "AirPort manually turned on."
-    else
-        growl "AirPort manually turned off."
-    fi
+   # if [ "$air_status" = "On" ]; then
+   #     growl "AirPort manually turned on."
+   # else
+   #     growl "AirPort manually turned off."
+   # fi
 
     fi
 
